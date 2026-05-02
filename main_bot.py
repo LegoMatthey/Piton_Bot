@@ -1,11 +1,7 @@
 import telebot
-from time import sleep, time
-from telegram import InlineKeyboardButton
-from telegram import InlineKeyboardMarkup
 from randompass_func import gen_pass
 from coin_giver import givecoin
 token = "8646285454:AAHLRqpoZktLC2m2UFM5Mk6_d9-57iFQ1Fg"
-Group_ID = -5155684725
 bot = telebot.TeleBot(token)
 
 @bot.message_handler(commands=['start'])
