@@ -38,4 +38,4 @@ def send_photo(message):
 def echo_all(message):
     bot.reply_to(message, message.text)
 
-bot.infinity_polling(restart_on_change = True)
+bot.infinity_polling()
